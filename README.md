@@ -1,2 +1,2 @@
 # liber8_ppter_colab
-生成AIに作らせたHTML記述をPPTXに変換する処理をColab用に
+生成AIに作らせたHTML記述をPPTXに変換する処理をColab用に改造
