@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A4H2P Sample — liber8_ppter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; background: #E8E8E8; font-family: 'Noto Sans JP', sans-serif; }
+    /* プレビュー: 各スライドを縦に並べて表示 */
+    .slide-wrap { display: flex; flex-direction: column; align-items: center; gap: 32px; padding: 32px; }
+    section { flex-shrink: 0; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4); }
+    /*
+      A4H2P変換時の注意:
+      - Converterは section[data-pptx-layout] を1スライドとして処理する
+      - 各要素の data-pptx-type で変換方法が決まる
+      - .slide-wrap や section の box-shadow はプレビュー専用（変換対象外）
+    */
+  </style>
+</head>
+<body>
+<div class="slide-wrap">
+
+<!-- ============================================================ A02 非公式表紙 / 02_structure_dark ============================================================ -->
+  <section data-pptx-layout="02_structure_dark" data-label="A02 非公式表紙" data-screen-label="A02 非公式表紙"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#004F8C;">
+    <div data-pptx-type="rect" style="position:absolute; left:0px; top:0px; width:18px; height:1046px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:56px; top:248px; width:960px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#739EC0; line-height:27px; text-align:left; letter-spacing:0;">LIBER8_PPTER Project</div>
+    <div data-pptx-type="text" style="position:absolute; left:56px; top:354px; width:1200px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#FFFFFF; line-height:101px; text-align:left; letter-spacing:0;">IGNAITALK #02</div>
+    <div data-pptx-type="text" style="position:absolute; left:56px; top:516px; width:700px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#F0C000; line-height:101px; text-align:left; letter-spacing:0;">実施報告</div>
+    <div data-pptx-type="rect" style="position:absolute; left:56px; top:700px; width:100px; height:6px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:56px; top:769px; width:1200px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#BFD3E2; line-height:48px; text-align:left; letter-spacing:0;">社内生成AI活用 Lightning Talk イベント</div>
+    <div data-pptx-type="text" style="position:absolute; left:56px; top:861px; width:400px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#5A8EAE; line-height:32px; text-align:left; letter-spacing:0;">2026年6月16日</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#003B69; display:flex; align-items:center; padding:0 56px;">
+      <span style="font-size:22px; color:#4D83AC;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ A03 目次 / 03_structure_light ============================================================ -->
+  <section data-pptx-layout="03_structure_light" data-label="A03 目次" data-screen-label="A03 目次"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:120px; width:8px; height:906px; background:#0088C8;"></div>
+    <!-- M-A3 タイトルブロック -->
+    <div data-pptx-type="text" style="position:absolute; left:76px; top:148px; width:300px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:27px; text-align:left; letter-spacing:0;">CONTENTS</div>
+    <div data-pptx-type="text" style="position:absolute; left:76px; top:226px; width:400px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#004F8C; line-height:101px; text-align:left; letter-spacing:0;">目次</div>
+    <!-- 目次項目 -->
+    <div data-pptx-type="line" style="position:absolute; left:76px; top:430px; width:1806px; height:2px; background:#F0F0F0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:76px; top:489px; width:140px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#CC0028; line-height:53px; text-align:left; letter-spacing:0;">01</div>
+    <div data-pptx-type="text" style="position:absolute; left:248px; top:489px; width:1300px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">実施概要・アジェンダ</div>
+    <div data-pptx-type="line" style="position:absolute; left:76px; top:600px; width:1806px; height:2px; background:#F0F0F0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:76px; top:659px; width:140px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#CC0028; line-height:53px; text-align:left; letter-spacing:0;">02</div>
+    <div data-pptx-type="text" style="position:absolute; left:248px; top:659px; width:1300px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">参加者アンケート結果</div>
+    <div data-pptx-type="line" style="position:absolute; left:76px; top:770px; width:1806px; height:2px; background:#F0F0F0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:76px; top:829px; width:140px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#767676; line-height:53px; text-align:left; letter-spacing:0;">03</div>
+    <div data-pptx-type="text" style="position:absolute; left:248px; top:829px; width:1300px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#767676; line-height:53px; text-align:left; letter-spacing:0;">次回開催について</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ A04 区切り / 02_structure_dark ============================================================ -->
+  <section data-pptx-layout="02_structure_dark" data-label="A04 区切り" data-screen-label="A04 区切り"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#004F8C;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:248px; width:400px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#739EC0; line-height:27px; text-align:left; letter-spacing:0;">SECTION</div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:343px; width:480px; height:160px; font-family:'Noto Sans JP',sans-serif; font-size:160px; font-weight:700; color:#F0C000; line-height:160px; text-align:left; letter-spacing:0;">02</div>
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:590px; width:140px; height:6px; background:#CC0028;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:675px; width:1200px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#FFFFFF; line-height:101px; text-align:left; letter-spacing:0;">参加者アンケート</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#003B69; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#4D83AC;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ A05 結び・Thank You / 02_structure_dark ============================================================ -->
+  <section data-pptx-layout="02_structure_dark" data-label="A05 結び" data-screen-label="A05 結び"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#004F8C;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:248px; width:400px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#739EC0; line-height:27px; text-align:left; letter-spacing:0;">THANK YOU</div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:354px; width:1200px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#FFFFFF; line-height:101px; text-align:left; letter-spacing:0;">ご清聴ありがとう</div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:516px; width:900px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#F0C000; line-height:101px; text-align:left; letter-spacing:0;">ございました</div>
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:700px; width:100px; height:6px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:769px; width:900px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#BFD3E2; line-height:48px; text-align:left; letter-spacing:0;">次回 IGNAITALK #03 もお楽しみに</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#003B69; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#4D83AC;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B07 L-1 / M-B0ヘッドライン + M-B3箇条書き ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B07 L-1 箇条書き" data-screen-label="B07 L-1 箇条書き"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <!-- M-B1 スライドヘッダー -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:1000px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">AI議事録自動化の実践</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">01</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B0 ヘッドライン: accent6バンド top:108 h:154 -->
+    <div data-pptx-type="rect" style="position:absolute; left:0px; top:108px; width:1920px; height:154px; background:#D6EEF8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:162px; width:1844px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">AI文字起こし導入で、議事録作成工数を90%削減した。</div>
+    <!-- コンテンツ開始Y:262 / L-1: left:38 top:136→実用262 w:1844 -->
+    <!-- M-B3 箇条書き L1 -->
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:320px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:307px; width:1766px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">会議音声の自動文字起こし精度は95%以上に到達</div>
+    <!-- M-B3 箇条書き L2 -->
+    <div data-pptx-type="oval" style="position:absolute; left:78px; top:413px; width:14px; height:14px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:112px; top:402px; width:1732px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">Whisper APIを使用。専門用語の辞書登録で精度を向上</div>
+    <!-- M-B3 箇条書き L1 -->
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:510px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:497px; width:1766px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">要約・アクションアイテム抽出を完全自動化</div>
+    <!-- M-B3 箇条書き L1 -->
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:647px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:634px; width:1766px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">全社展開に向けたパイロット結果を共有</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B07b L-1 / M-B0ヘッドライン2行 + M-B3箇条書き ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B07b L-1 箇条書き（ヘッドライン2行）" data-screen-label="B07b L-1 箇条書き（ヘッドライン2行）"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <!-- M-B1 スライドヘッダー -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:1000px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">AI議事録自動化の実践</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">01</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B0 ヘッドライン2行: accent6バンド top:108 h:154（バンド高さ変更なし） -->
+    <div data-pptx-type="rect" style="position:absolute; left:0px; top:108px; width:1920px; height:154px; background:#D6EEF8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:137px; width:1844px; height:96px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">AI文字起こし導入で、議事録作成工数を90%削減した。<br>年間削減コストは¥2.4M、導入期間はわずか2週間。</div>
+    <!-- コンテンツ開始Y:262 -->
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:397px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:384px; width:1766px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">会議音声の自動文字起こし精度は95%以上に到達</div>
+    <div data-pptx-type="oval" style="position:absolute; left:78px; top:490px; width:14px; height:14px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:112px; top:479px; width:1732px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">Whisper APIを使用。専門用語の辞書登録で精度を向上</div>
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:587px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:574px; width:1766px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">要約・アクションアイテム抽出を完全自動化</div>
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:724px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:711px; width:1766px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">全社展開に向けたパイロット結果を共有</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B08 L-2H / O-B1 比較テーブル ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B08 L-2H 比較テーブル" data-screen-label="B08 L-2H 比較テーブル"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:800px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">ツール比較検討</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">02</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B0 ヘッドライン -->
+    <div data-pptx-type="rect" style="position:absolute; left:0px; top:108px; width:1920px; height:154px; background:#D6EEF8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:162px; width:1844px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">内製とSaaSの総合評価では、導入速度でSaaS、長期ROIで内製が優位。</div>
+    <!-- O-B1 比較テーブル / コンテンツ開始Y:262 -->
+    <!-- ヘッダー行 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:272px; width:300px; height:69px; background:#1A1A1A;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:338px; top:272px; width:772px; height:69px; background:#0088C8;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1110px; top:272px; width:772px; height:69px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:291px; width:276px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">比較軸</div>
+    <div data-pptx-type="text" style="position:absolute; left:338px; top:285px; width:772px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#FFFFFF; line-height:43px; text-align:center; letter-spacing:0;">A案（内製）</div>
+    <div data-pptx-type="text" style="position:absolute; left:1110px; top:285px; width:772px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:center; letter-spacing:0;">B案（SaaS）</div>
+    <!-- Row 1 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:341px; width:300px; height:72px; background:#FAFAFA;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:338px; top:341px; width:772px; height:72px; background:#F0F7FF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1110px; top:341px; width:772px; height:72px; background:#FFFFFF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:358px; width:276px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">コスト</div>
+    <div data-pptx-type="text" style="position:absolute; left:338px; top:357px; width:250px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:center; letter-spacing:0;">◎</div>
+    <div data-pptx-type="text" style="position:absolute; left:588px; top:358px; width:510px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">初期費用が低くROI高</div>
+    <div data-pptx-type="text" style="position:absolute; left:1110px; top:357px; width:250px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#767676; line-height:53px; text-align:center; letter-spacing:0;">△</div>
+    <div data-pptx-type="text" style="position:absolute; left:1360px; top:358px; width:510px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">ライセンス費用が高め</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:413px; width:1844px; height:1px; background:#EEEEEE;"></div>
+    <!-- Row 2 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:414px; width:300px; height:72px; background:#FFFFFF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:338px; top:414px; width:772px; height:72px; background:#FFFFFF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1110px; top:414px; width:772px; height:72px; background:#F0F7FF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:431px; width:276px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">導入速度</div>
+    <div data-pptx-type="text" style="position:absolute; left:338px; top:430px; width:250px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#767676; line-height:53px; text-align:center; letter-spacing:0;">△</div>
+    <div data-pptx-type="text" style="position:absolute; left:588px; top:431px; width:510px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">開発期間3ヶ月必要</div>
+    <div data-pptx-type="text" style="position:absolute; left:1110px; top:430px; width:250px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:center; letter-spacing:0;">◎</div>
+    <div data-pptx-type="text" style="position:absolute; left:1360px; top:431px; width:510px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">2週間で本番稼働</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:486px; width:1844px; height:1px; background:#EEEEEE;"></div>
+    <!-- Row 3 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:487px; width:300px; height:72px; background:#FAFAFA;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:338px; top:487px; width:772px; height:72px; background:#F0F7FF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1110px; top:487px; width:772px; height:72px; background:#FFFFFF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:504px; width:276px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">拡張性</div>
+    <div data-pptx-type="text" style="position:absolute; left:338px; top:503px; width:250px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:center; letter-spacing:0;">◎</div>
+    <div data-pptx-type="text" style="position:absolute; left:588px; top:504px; width:510px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">自由度が高い</div>
+    <div data-pptx-type="text" style="position:absolute; left:1110px; top:503px; width:250px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:center; letter-spacing:0;">○</div>
+    <div data-pptx-type="text" style="position:absolute; left:1360px; top:504px; width:510px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">テンプレート範囲内</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B09 L-1 / 引用（縦バー+大テキスト） ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B09 L-1 引用" data-screen-label="B09 L-1 引用"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:500px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">参加者の声</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">03</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:200px; width:12px; height:550px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:80px; top:250px; width:1764px; height:128px; font-family:'Noto Sans JP',sans-serif; font-size:64px; font-weight:700; color:#1A1A1A; line-height:64px; text-align:left; letter-spacing:0;">実際の業務ですぐに使えるヒントが多く、<br>次回も絶対に参加したいと思いました。</div>
+    <div data-pptx-type="line" style="position:absolute; left:80px; top:487px; width:600px; height:2px; background:#F0C000;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:80px; top:534px; width:800px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">田中 花子（経営企画部）</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B10 L-3H / M-B4 KPIカード×3 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B10 L-3H KPIカード" data-screen-label="B10 L-3H KPIカード"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:600px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">実績サマリー</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">04</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B0 ヘッドライン -->
+    <div data-pptx-type="rect" style="position:absolute; left:0px; top:108px; width:1920px; height:154px; background:#D6EEF8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:162px; width:1844px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">参加42名・満足度4.6・工数90%削減——3つの数字がイベントの成果を語る。</div>
+    <!-- L-3H: Left:38 w:588 / Center:666 w:588 / Right:1294 w:588 / top:262 h:784 -->
+    <!-- KPI Card 1 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:38px; top:272px; width:588px; height:610px; background:#D6EEF8; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:358px; width:588px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:center; letter-spacing:0;">参加者数</div>
+    <div data-pptx-type="text" style="position:absolute; left:231px; top:446px; width:160px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#004F8C; line-height:101px; text-align:right; letter-spacing:0;">42</div>
+    <div data-pptx-type="text" style="position:absolute; left:391px; top:487px; width:80px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">名</div>
+    <div data-pptx-type="line" style="position:absolute; left:78px; top:610px; width:508px; height:1px; background:#B8DCF0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:628px; width:508px; height:64px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">前回比 +12名<br>目標達成率 105%</div>
+    <!-- KPI Card 2 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:666px; top:272px; width:588px; height:610px; background:#D6EEF8; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="text" style="position:absolute; left:666px; top:358px; width:588px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:center; letter-spacing:0;">総合満足度</div>
+    <div data-pptx-type="text" style="position:absolute; left:809px; top:446px; width:210px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#004F8C; line-height:101px; text-align:right; letter-spacing:0;">4.6</div>
+    <div data-pptx-type="text" style="position:absolute; left:1019px; top:487px; width:90px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">/5</div>
+    <div data-pptx-type="line" style="position:absolute; left:706px; top:610px; width:508px; height:1px; background:#B8DCF0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:706px; top:628px; width:508px; height:64px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">回答者数 38名<br>昨年度比 +0.3pt</div>
+    <!-- KPI Card 3 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:1294px; top:272px; width:588px; height:610px; background:#D6EEF8; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1294px; top:358px; width:588px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:center; letter-spacing:0;">工数削減率</div>
+    <div data-pptx-type="text" style="position:absolute; left:1487px; top:446px; width:160px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#CC0028; line-height:101px; text-align:right; letter-spacing:0;">90</div>
+    <div data-pptx-type="text" style="position:absolute; left:1647px; top:487px; width:80px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">%</div>
+    <div data-pptx-type="line" style="position:absolute; left:1334px; top:610px; width:508px; height:1px; background:#B8DCF0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1334px; top:628px; width:508px; height:64px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">月間換算 約32h<br>年間削減 ¥2.4M</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B11 L-2H-6040 / placeholder + M-B3 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B11 L-2H-6040 画像+テキスト" data-screen-label="B11 L-2H-6040 画像+テキスト"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:800px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">現場導入の様子</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">05</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- L-2H-6040: Left: left:38 top:136 w:1107 h:906 / Right: left:1185 top:136 w:697 h:906 -->
+    <!-- Left: 画像プレースホルダー -->
+    <div data-pptx-type="placeholder" data-placeholder-label="導入現場の写真" data-placeholder-hint="会議室でノートPCを使うビジネスパーソン・明るいオフィス・水平構図"
+      style="position:absolute; left:38px; top:136px; width:1107px; height:906px; background:#F0F0F0; display:flex; align-items:center; justify-content:center;">
+      <div style="text-align:center;">
+        <div style="width:80px; height:80px; background:#CCCCCC; margin:0 auto 24px;"></div>
+        <div style="font-size:32px; color:#AAAAAA;">導入現場の写真<br><span style="font-size:27px; color:#CCCCCC;">1107×906px推奨</span></div>
+      </div>
+    </div>
+    <!-- Right: M-B11ゾーン見出し + M-B3 / left:1185 w:697 -->
+    <div data-pptx-type="rect" style="position:absolute; left:1185px; top:136px; width:8px; height:85px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1213px; top:152px; width:669px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">導入のポイント</div>
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:291px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:278px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">既存ツールとの連携がスムーズ</div>
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:428px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:415px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">担当者研修はわずか1時間</div>
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:565px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:552px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">導入2週間で効果を実感</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B12 L-2V / 上下2分割（M-B11ゾーン見出し + M-B12標準テーブル） ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B12 L-2V 標準テーブル" data-screen-label="B12 L-2V 標準テーブル"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:800px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">LT登壇者一覧</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">06</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- L-2V: Top: left:38 top:136 w:1844 h:433 / Bottom: left:38 top:609 w:1844 h:433 -->
+    <!-- Top: M-B11ゾーン見出し（バー型）+ 説明テキスト -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:136px; width:8px; height:85px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:66px; top:152px; width:1000px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">今回の登壇者</div>
+    <div data-pptx-type="text" style="position:absolute; left:66px; top:266px; width:1400px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">各部署からAI活用の実践事例を4名が発表</div>
+    <!-- Bottom: M-B12 標準テーブル / left:38 top:609 w:1844 h:433 -->
+    <!-- ヘッダー行 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:609px; width:1844px; height:64px; background:#1A1A1A;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:625px; width:350px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:left; letter-spacing:0;">氏名</div>
+    <div data-pptx-type="text" style="position:absolute; left:420px; top:625px; width:400px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:left; letter-spacing:0;">部署</div>
+    <div data-pptx-type="text" style="position:absolute; left:840px; top:625px; width:1030px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:left; letter-spacing:0;">発表テーマ</div>
+    <!-- Row 1 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:673px; width:350px; height:80px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:690px; width:338px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">田中 一郎</div>
+    <div data-pptx-type="text" style="position:absolute; left:420px; top:690px; width:388px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">営業企画部</div>
+    <div data-pptx-type="text" style="position:absolute; left:840px; top:690px; width:1030px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">議事録自動要約で週3時間を取り戻す</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:753px; width:1844px; height:1px; background:#E8E8E8;"></div>
+    <!-- Row 2 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:754px; width:350px; height:80px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:771px; width:338px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">佐藤 花子</div>
+    <div data-pptx-type="text" style="position:absolute; left:420px; top:771px; width:388px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">情報システム部</div>
+    <div data-pptx-type="text" style="position:absolute; left:840px; top:771px; width:1030px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">RAG導入で問い合わせ対応を半減</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:834px; width:1844px; height:1px; background:#E8E8E8;"></div>
+    <!-- Row 3 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:835px; width:350px; height:80px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:852px; width:338px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">鈴木 太郎</div>
+    <div data-pptx-type="text" style="position:absolute; left:420px; top:852px; width:388px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">製造管理部</div>
+    <div data-pptx-type="text" style="position:absolute; left:840px; top:852px; width:1030px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">画像AIによる外観検査の自動化</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B13 L-1 / M-B6 タイムライン ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B13 L-1 タイムライン" data-screen-label="B13 L-1 タイムライン"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:700px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">当日のタイムライン</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">07</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B6 Row 1 -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:205px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">18:00</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:180px; width:6px; height:77px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:195px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">開場・受付</div>
+    <!-- M-B6 Row 2 with sub -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:335px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">18:15</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:310px; width:6px; height:162px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:325px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">Lightning Talks × 4本</div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:420px; width:1576px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">各5分 — AI活用事例を登壇者がシェア</div>
+    <!-- M-B6 Row 3 with sub -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:550px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">19:00</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:525px; width:6px; height:162px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:540px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">Q&amp;A・ディスカッション</div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:635px; width:1576px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">全体質疑 — 登壇者への質問を受け付けます</div>
+    <!-- M-B6 Row 4 -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:765px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">19:30</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:740px; width:6px; height:77px; background:#F0C000;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:755px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">ネットワーキング・クロージング</div>
+    <!-- M-B6 Row 5 -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:880px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">20:00</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:855px; width:6px; height:77px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:870px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">終了（予定）</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B14 L-2H / M-B7 人物カード×2 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B14 L-2H 人物カード" data-screen-label="B14 L-2H 人物カード"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:700px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">登壇者プロフィール</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">08</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B0 ヘッドライン -->
+    <div data-pptx-type="rect" style="position:absolute; left:0px; top:108px; width:1920px; height:154px; background:#D6EEF8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:162px; width:1844px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">今回のLT登壇者2名——異なる部署からのAI活用実践報告。</div>
+    <!-- L-2H: Left: left:38 top:262 w:902 h:780 / Right: left:980 top:262 w:902 h:780 -->
+    <!-- Card 1 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:38px; top:272px; width:902px; height:760px; background:#F5F5F5; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:70px; top:302px; width:80px; height:80px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:174px; top:318px; width:730px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">田中 一郎</div>
+    <div data-pptx-type="text" style="position:absolute; left:174px; top:412px; width:730px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">営業企画部</div>
+    <div data-pptx-type="line" style="position:absolute; left:70px; top:500px; width:828px; height:2px; background:#E0E0E0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:538px; width:200px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:left; letter-spacing:0;">発表テーマ</div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:606px; width:828px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">議事録自動要約で週3時間を取り戻す</div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:713px; width:828px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">会議録音→要約→共有を完全自動化</div>
+    <!-- Card 2 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:980px; top:272px; width:902px; height:760px; background:#F5F5F5; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1012px; top:302px; width:80px; height:80px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1116px; top:318px; width:730px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">佐藤 花子</div>
+    <div data-pptx-type="text" style="position:absolute; left:1116px; top:412px; width:730px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">情報システム部</div>
+    <div data-pptx-type="line" style="position:absolute; left:1012px; top:500px; width:828px; height:2px; background:#E0E0E0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1012px; top:538px; width:200px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:left; letter-spacing:0;">発表テーマ</div>
+    <div data-pptx-type="text" style="position:absolute; left:1012px; top:606px; width:828px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">社内問い合わせにRAGを導入した3ヶ月</div>
+    <div data-pptx-type="text" style="position:absolute; left:1012px; top:713px; width:828px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">応答時間を半減させるまでの試行錯誤</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B15 L-2H-Rs / M-B11ゾーン見出し+M-B3（左）/ M-B4×2（右上下） ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B15 L-2H-Rs ゾーン見出し+KPI" data-screen-label="B15 L-2H-Rs ゾーン見出し+KPI"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:900px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">導入効果と背景</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">09</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- L-2H-Rs: Left: left:38 top:136 w:902 h:906 / Right-Top: left:980 top:136 w:902 h:433 / Right-Bottom: left:980 top:609 w:902 h:433 -->
+    <!-- Left: M-B11ゾーン見出し + M-B3箇条書き -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:136px; width:8px; height:85px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:66px; top:152px; width:874px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">導入の背景</div>
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:311px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:298px; width:862px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">月間議事録作成に全社で400h超</div>
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:448px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:435px; width:862px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">担当者によって品質にばらつき</div>
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:585px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:572px; width:862px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">共有までのタイムラグが課題</div>
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:722px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:709px; width:862px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">AIツール活用でコスト削減余地が大</div>
+    <!-- Right-Top: M-B4 KPIカード -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:980px; top:136px; width:902px; height:393px; background:#D6EEF8; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="text" style="position:absolute; left:980px; top:208px; width:902px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:center; letter-spacing:0;">導入前 月間工数</div>
+    <div data-pptx-type="text" style="position:absolute; left:1161px; top:296px; width:360px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#767676; line-height:101px; text-align:right; letter-spacing:0;">400</div>
+    <div data-pptx-type="text" style="position:absolute; left:1521px; top:337px; width:120px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">h</div>
+    <!-- Right-Bottom: M-B4 KPIカード -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:980px; top:569px; width:902px; height:393px; background:#D6EEF8; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="text" style="position:absolute; left:980px; top:638px; width:902px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:center; letter-spacing:0;">導入後 削減工数</div>
+    <div data-pptx-type="text" style="position:absolute; left:1161px; top:726px; width:360px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#CC0028; line-height:101px; text-align:right; letter-spacing:0;">360</div>
+    <div data-pptx-type="text" style="position:absolute; left:1521px; top:767px; width:120px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">h</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B16 L-1 / M-B16 タスク進捗テーブル ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B16 L-1 タスク進捗" data-screen-label="B16 L-1 タスク進捗"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:800px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">導入プロジェクト進捗</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">10</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B12 標準テーブル / L-1: left:38 top:136 w:1844 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:136px; width:1844px; height:64px; background:#1A1A1A;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:152px; width:68px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:left; letter-spacing:0;">#</div>
+    <div data-pptx-type="text" style="position:absolute; left:118px; top:152px; width:628px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:left; letter-spacing:0;">タスク名</div>
+    <div data-pptx-type="text" style="position:absolute; left:758px; top:152px; width:308px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:left; letter-spacing:0;">担当</div>
+    <div data-pptx-type="text" style="position:absolute; left:1078px; top:152px; width:468px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:left; letter-spacing:0;">ステータス</div>
+    <div data-pptx-type="text" style="position:absolute; left:1558px; top:152px; width:312px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:left; letter-spacing:0;">期限</div>
+    <!-- Row 1 完了 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:200px; width:1844px; height:80px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:217px; width:68px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#0088C8; line-height:43px; text-align:left; letter-spacing:0;">01</div>
+    <div data-pptx-type="text" style="position:absolute; left:118px; top:217px; width:628px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">要件定義・スコープ確定</div>
+    <div data-pptx-type="text" style="position:absolute; left:758px; top:217px; width:308px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">田中</div>
+    <div data-pptx-type="text" style="position:absolute; left:1078px; top:217px; width:468px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#004F8C; line-height:43px; text-align:left; letter-spacing:0;">✓ 完了</div>
+    <div data-pptx-type="text" style="position:absolute; left:1558px; top:217px; width:312px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">6/01</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:280px; width:1844px; height:1px; background:#E8E8E8;"></div>
+    <!-- Row 2 進行中 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:281px; width:1844px; height:80px; background:#FFFFFF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:298px; width:68px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#0088C8; line-height:43px; text-align:left; letter-spacing:0;">02</div>
+    <div data-pptx-type="text" style="position:absolute; left:118px; top:298px; width:628px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">API連携・開発</div>
+    <div data-pptx-type="text" style="position:absolute; left:758px; top:298px; width:308px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">佐藤</div>
+    <div data-pptx-type="text" style="position:absolute; left:1078px; top:298px; width:468px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#C87800; line-height:43px; text-align:left; letter-spacing:0;">▶ 進行中</div>
+    <div data-pptx-type="text" style="position:absolute; left:1558px; top:298px; width:312px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">6/20</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:361px; width:1844px; height:1px; background:#E8E8E8;"></div>
+    <!-- Row 3 進行中 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:362px; width:1844px; height:80px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:379px; width:68px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#0088C8; line-height:43px; text-align:left; letter-spacing:0;">03</div>
+    <div data-pptx-type="text" style="position:absolute; left:118px; top:379px; width:628px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">パイロットテスト</div>
+    <div data-pptx-type="text" style="position:absolute; left:758px; top:379px; width:308px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">田中</div>
+    <div data-pptx-type="text" style="position:absolute; left:1078px; top:379px; width:468px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#C87800; line-height:43px; text-align:left; letter-spacing:0;">▶ 進行中</div>
+    <div data-pptx-type="text" style="position:absolute; left:1558px; top:379px; width:312px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">7/05</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:442px; width:1844px; height:1px; background:#E8E8E8;"></div>
+    <!-- Row 4 未着手 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:443px; width:1844px; height:80px; background:#FFFFFF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:460px; width:68px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#0088C8; line-height:43px; text-align:left; letter-spacing:0;">04</div>
+    <div data-pptx-type="text" style="position:absolute; left:118px; top:460px; width:628px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">全社展開・マニュアル整備</div>
+    <div data-pptx-type="text" style="position:absolute; left:758px; top:460px; width:308px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">佐藤</div>
+    <div data-pptx-type="text" style="position:absolute; left:1078px; top:460px; width:468px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">— 未着手</div>
+    <div data-pptx-type="text" style="position:absolute; left:1558px; top:460px; width:312px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">8/01</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B17 L-4 / M-B10×4 2×2グリッド ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B17 L-4 グリッド2x2" data-screen-label="B17 L-4 グリッド2x2"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:900px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">4つの取り組み</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">11</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B0 ヘッドライン -->
+    <div data-pptx-type="rect" style="position:absolute; left:0px; top:108px; width:1920px; height:154px; background:#D6EEF8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:162px; width:1844px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">現在進行中3案件・次期1案件——AI活用が部門を横断して加速している。</div>
+    <!-- L-4 コンテンツカード×4: card w:902 h:370, gap:40 -->
+    <!-- 各カード内部: アクセントバー top:card_top h:8 / タイトル top:card_top+32 h:43 / 本文 top:card_top+91 h:76(2行) -->
+
+    <!-- カード TL (Top-Left): accent1 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:38px; top:272px; width:902px; height:370px; background:#FFFFFF; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:272px; width:902px; height:8px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:304px; width:838px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">AI文字起こし導入</div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:363px; width:838px; height:76px; font-family:'Noto Sans JP',sans-serif; font-size:38px; font-weight:400; color:#767676; line-height:38px; text-align:left; letter-spacing:0;">会議録音から5分以内に要約完成。<br>月400時間を削減する議事録自動化プロジェクト。</div>
+
+    <!-- カード TR (Top-Right): accent1 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:980px; top:272px; width:902px; height:370px; background:#FFFFFF; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:980px; top:272px; width:902px; height:8px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1012px; top:304px; width:838px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">社内RAGシステム</div>
+    <div data-pptx-type="text" style="position:absolute; left:1012px; top:363px; width:838px; height:76px; font-family:'Noto Sans JP',sans-serif; font-size:38px; font-weight:400; color:#767676; line-height:38px; text-align:left; letter-spacing:0;">社内規程・手順書を検索可能に。<br>問い合わせ対応工数を従来比50%削減した事例。</div>
+
+    <!-- カード BL (Bottom-Left): accent4 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:38px; top:682px; width:902px; height:370px; background:#FFFFFF; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:682px; width:902px; height:8px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:714px; width:838px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">画像AI外観検査</div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:773px; width:838px; height:76px; font-family:'Noto Sans JP',sans-serif; font-size:38px; font-weight:400; color:#767676; line-height:38px; text-align:left; letter-spacing:0;">製造ラインにCNNモデルを導入。<br>検査精度99.2%を達成し不良品流出率を大幅改善。</div>
+
+    <!-- カード BR (Bottom-Right): accent6（次回予定）-->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:980px; top:682px; width:902px; height:370px; background:#D6EEF8; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:980px; top:682px; width:902px; height:8px; background:#004F8C;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1012px; top:714px; width:838px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#004F8C; line-height:43px; text-align:left; letter-spacing:0;">次回取り組み予定</div>
+    <div data-pptx-type="text" style="position:absolute; left:1012px; top:773px; width:838px; height:76px; font-family:'Noto Sans JP',sans-serif; font-size:38px; font-weight:400; color:#004F8C; line-height:38px; text-align:left; letter-spacing:0;">営業レポートの自動生成と、<br>顧客問い合わせへのAI一次対応を検討中。</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B18 O-B4 横型フロー（4ステップ） ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B18 O-B4 横型フロー" data-screen-label="B18 O-B4 横型フロー"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:800px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">採用選考フロー</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">12</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B0 ヘッドライン -->
+    <div data-pptx-type="rect" style="position:absolute; left:0px; top:108px; width:1920px; height:154px; background:#D6EEF8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:162px; width:1844px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">書類選考から内定まで4ステップ——最短2週間での採用を実現</div>
+    <!-- O-B4: カード幅=(1844-64×3)/4=413px · 矢印幅=64px -->
+    <!-- Step 1 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:290px; width:413px; height:700px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:346px; width:333px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#0088C8; line-height:27px; text-align:left; letter-spacing:0;">STEP 01</div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:416px; width:333px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">書類選考</div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:494px; width:333px; height:86px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">応募データを<br>もとに確認</div>
+    <!-- Arrow 1 -->
+    <div data-pptx-type="triangle" data-pptx-rotation="90" style="position:absolute; left:467px; top:616px; width:48px; height:64px; background:#0088C8; clip-path:polygon(0% 0%, 100% 50%, 0% 100%);"></div>
+    <!-- Step 2 -->
+    <div data-pptx-type="rect" style="position:absolute; left:515px; top:290px; width:413px; height:700px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:555px; top:346px; width:333px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#0088C8; line-height:27px; text-align:left; letter-spacing:0;">STEP 02</div>
+    <div data-pptx-type="text" style="position:absolute; left:555px; top:416px; width:333px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">1次面接</div>
+    <div data-pptx-type="text" style="position:absolute; left:555px; top:494px; width:333px; height:86px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">経験・スキルの<br>ヒアリング</div>
+    <!-- Arrow 2 -->
+    <div data-pptx-type="triangle" data-pptx-rotation="90" style="position:absolute; left:944px; top:616px; width:48px; height:64px; background:#0088C8; clip-path:polygon(0% 0%, 100% 50%, 0% 100%);"></div>
+    <!-- Step 3 -->
+    <div data-pptx-type="rect" style="position:absolute; left:992px; top:290px; width:413px; height:700px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1032px; top:346px; width:333px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#0088C8; line-height:27px; text-align:left; letter-spacing:0;">STEP 03</div>
+    <div data-pptx-type="text" style="position:absolute; left:1032px; top:416px; width:333px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">2次面接</div>
+    <div data-pptx-type="text" style="position:absolute; left:1032px; top:494px; width:333px; height:86px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">チームとの<br>相性確認</div>
+    <!-- Arrow 3 -->
+    <div data-pptx-type="triangle" data-pptx-rotation="90" style="position:absolute; left:1421px; top:616px; width:48px; height:64px; background:#0088C8; clip-path:polygon(0% 0%, 100% 50%, 0% 100%);"></div>
+    <!-- Step 4（最終・accent6強調） -->
+    <div data-pptx-type="rect" style="position:absolute; left:1469px; top:290px; width:413px; height:700px; background:#D6EEF8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1509px; top:346px; width:333px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#004F8C; line-height:27px; text-align:left; letter-spacing:0;">STEP 04</div>
+    <div data-pptx-type="text" style="position:absolute; left:1509px; top:416px; width:333px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">最終面接</div>
+    <div data-pptx-type="text" style="position:absolute; left:1509px; top:494px; width:333px; height:86px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#004F8C; line-height:43px; text-align:left; letter-spacing:0;">キャリアビジョン<br>を確認</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B19 O-B7 乗算式フロー（サークル型） ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B19 O-B7 乗算式フロー" data-screen-label="B19 O-B7 乗算式フロー"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:900px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">価値提供の方程式</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">13</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- O-B7 variant A: 3サークル + 演算子 + 結果バナー -->
+    <!-- 配置: total=3×420+2×100=1460 · start=(1920-1460)/2=230 -->
+    <!-- Circle 1 -->
+    <div data-pptx-type="oval" style="position:absolute; left:230px; top:250px; width:420px; height:420px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:270px; top:435px; width:340px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#FFFFFF; line-height:48px; text-align:center; letter-spacing:0;">スピード</div>
+    <!-- Operator 1 -->
+    <div data-pptx-type="text" style="position:absolute; left:650px; top:410px; width:100px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#C87800; line-height:101px; text-align:left; letter-spacing:0;">×</div>
+    <!-- Circle 2 -->
+    <div data-pptx-type="oval" style="position:absolute; left:750px; top:250px; width:420px; height:420px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:790px; top:435px; width:340px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#FFFFFF; line-height:48px; text-align:center; letter-spacing:0;">コスト削減</div>
+    <!-- Operator 2 -->
+    <div data-pptx-type="text" style="position:absolute; left:1170px; top:410px; width:100px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#C87800; line-height:101px; text-align:left; letter-spacing:0;">×</div>
+    <!-- Circle 3 -->
+    <div data-pptx-type="oval" style="position:absolute; left:1270px; top:250px; width:420px; height:420px; background:#004F8C;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1290px; top:436px; width:380px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#FFFFFF; line-height:48px; text-align:center; letter-spacing:0;">使いやすさ</div>
+    <!-- 結果バナー -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:730px; width:1844px; height:100px; background:#004F8C;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:160px; top:756px; width:1600px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#FFFFFF; line-height:48px; text-align:left; letter-spacing:0;">AI活用による業務変革——3つの価値が掛け合わさって真の成果を生む</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B19b O-B7 乗算式フロー バリアントB ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B19b O-B7 乗算式フロー バリアントB" data-screen-label="B19b O-B7 乗算式フロー バリアントB"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:900px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">価値提供の方程式</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">13b</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+
+    <!-- O-B7 バリアント B: 矩形カード × 3 + バッジ + 結果カード -->
+    <!-- レイアウトルール: カード w:300 h:280, 演算子 w:100, 結果カード w:320 -->
+    <!-- 6 gaps × 54px = 324px, 総幅: 1520+324=1844 (left:38〜right:1882) -->
+    <!-- 縦: badge top:413 h:60, card top:489 h:280, center_y:629 -->
+    <!-- 演算子 center_y:629, font-size:80px line-height:110px → top:574 -->
+
+    <!-- ===== Card 1: グレー（ベースライン） ===== -->
+    <!-- バッジなし（スペーサーのみ） -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:489px; width:300px; height:280px; background:#AAAAAA;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:574px; width:300px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#FFFFFF; line-height:48px; text-align:center; letter-spacing:0;">課題解像度</div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:662px; width:300px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#FFFFFF; line-height:32px; text-align:center; letter-spacing:0; opacity:0.8;">現状維持</div>
+
+    <!-- ===== Operator × 1 ===== -->
+    <div data-pptx-type="text" style="position:absolute; left:392px; top:589px; width:100px; height:80px; font-family:'Noto Sans JP',sans-serif; font-size:80px; font-weight:700; color:#C87800; line-height:80px; text-align:center; letter-spacing:0;">×</div>
+
+    <!-- ===== Card 2: accent4（フォーカス） ===== -->
+    <div data-pptx-type="rect" style="position:absolute; left:546px; top:413px; width:300px; height:60px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:546px; top:423px; width:300px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:center; letter-spacing:0;">向上</div>
+    <div data-pptx-type="rect" style="position:absolute; left:546px; top:489px; width:300px; height:280px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:546px; top:574px; width:300px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#FFFFFF; line-height:48px; text-align:center; letter-spacing:0;">AI精度</div>
+    <div data-pptx-type="text" style="position:absolute; left:546px; top:662px; width:300px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#FFFFFF; line-height:32px; text-align:center; letter-spacing:0; opacity:0.8;">モデル品質向上</div>
+
+    <!-- ===== Operator × 2 ===== -->
+    <div data-pptx-type="text" style="position:absolute; left:900px; top:589px; width:100px; height:80px; font-family:'Noto Sans JP',sans-serif; font-size:80px; font-weight:700; color:#C87800; line-height:80px; text-align:center; letter-spacing:0;">×</div>
+
+    <!-- ===== Card 3: accent4（フォーカス） ===== -->
+    <div data-pptx-type="rect" style="position:absolute; left:1054px; top:413px; width:300px; height:60px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1054px; top:423px; width:300px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#FFFFFF; line-height:32px; text-align:center; letter-spacing:0;">向上</div>
+    <div data-pptx-type="rect" style="position:absolute; left:1054px; top:489px; width:300px; height:280px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1054px; top:574px; width:300px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#FFFFFF; line-height:48px; text-align:center; letter-spacing:0;">展開速度</div>
+    <div data-pptx-type="text" style="position:absolute; left:1054px; top:662px; width:300px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#FFFFFF; line-height:32px; text-align:center; letter-spacing:0; opacity:0.8;">社内定着を加速</div>
+
+    <!-- ===== Operator = ===== -->
+    <div data-pptx-type="text" style="position:absolute; left:1408px; top:589px; width:100px; height:80px; font-family:'Noto Sans JP',sans-serif; font-size:80px; font-weight:700; color:#1A1A1A; line-height:80px; text-align:center; letter-spacing:0;">=</div>
+
+    <!-- ===== Result Card: accent3 (#F0C000) ===== -->
+    <div data-pptx-type="rect" style="position:absolute; left:1562px; top:489px; width:320px; height:280px; background:#F0C000;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1562px; top:574px; width:320px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:center; letter-spacing:0;">競争優位</div>
+    <div data-pptx-type="text" style="position:absolute; left:1562px; top:662px; width:320px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#1A1A1A; line-height:32px; text-align:center; letter-spacing:0; opacity:0.7;">AI ROI 最大化</div>
+
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B20 O-B6 ポジショニングマップ ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B20 O-B6 ポジショニングマップ" data-screen-label="B20 O-B6 ポジショニングマップ"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:900px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">競合ポジショニングマップ</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">14</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- O-B6: マップ領域 left:38 top:136 w:1844 h:906 -->
+    <!-- 象限bg: 右上のみ accent6 強調 -->
+    <div data-pptx-type="rect" style="position:absolute; left:960px; top:136px; width:922px; height:453px; background:#D6EEF8;"></div>
+    <!-- 縦軸 -->
+    <div data-pptx-type="line" style="position:absolute; left:958px; top:136px; width:4px; height:906px; background:#AAAAAA;"></div>
+    <!-- 横軸 -->
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:587px; width:1844px; height:4px; background:#AAAAAA;"></div>
+    <!-- 軸ラベル: Y高（上） accent1 rect+text -->
+    <div data-pptx-type="rect" style="position:absolute; left:810px; top:136px; width:300px; height:60px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:810px; top:152px; width:300px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#FFFFFF; line-height:27px; text-align:center; letter-spacing:0;">高機能</div>
+    <!-- 軸ラベル: Y低（下） dk2 rect+text -->
+    <div data-pptx-type="rect" style="position:absolute; left:810px; top:982px; width:300px; height:60px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:810px; top:998px; width:300px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#FFFFFF; line-height:27px; text-align:center; letter-spacing:0;">低機能</div>
+    <!-- 軸ラベル: X低（左） dk2 rect+text -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:559px; width:220px; height:60px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:575px; width:220px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#FFFFFF; line-height:27px; text-align:center; letter-spacing:0;">低価格</div>
+    <!-- 軸ラベル: X高（右） accent1 rect+text -->
+    <div data-pptx-type="rect" style="position:absolute; left:1664px; top:559px; width:218px; height:60px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1664px; top:575px; width:218px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#FFFFFF; line-height:27px; text-align:center; letter-spacing:0;">高価格</div>
+    <!-- 自社（右上・accent5） -->
+    <div data-pptx-type="oval" style="position:absolute; left:1220px; top:240px; width:200px; height:200px; background:#004F8C;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1220px; top:328px; width:200px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#FFFFFF; line-height:43px; text-align:center; letter-spacing:0;">自社</div>
+    <!-- 競合A（左上） -->
+    <div data-pptx-type="oval" style="position:absolute; left:320px; top:280px; width:120px; height:120px; background:#AAAAAA;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:320px; top:330px; width:120px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#FFFFFF; line-height:27px; text-align:center; letter-spacing:0;">競合A</div>
+    <!-- 競合B（右下） -->
+    <div data-pptx-type="text" style="position:absolute; left:1300px; top:728px; width:200px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#AAAAAA; line-height:27px; text-align:center; letter-spacing:0;">競合B</div>
+    <!-- 競合C（左下） -->
+    <div data-pptx-type="text" style="position:absolute; left:200px; top:768px; width:200px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#AAAAAA; line-height:27px; text-align:center; letter-spacing:0;">競合C</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B21 O-B9 グリッドフロー 3×2 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B21 O-B9 グリッドフロー3x2" data-screen-label="B21 O-B9 グリッドフロー3x2"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:900px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">AI活用6つのアプローチ</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">15</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- O-B9 3×2: カード幅=(1844-40×2)/3=588px · 行高=(906-40)/2=433px · gap=40px -->
+    <!-- Row1-Col1 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:38px; top:136px; width:588px; height:433px; background:#FFFFFF; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:136px; width:588px; height:8px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:183px; width:508px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">議事録自動要約</div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:261px; width:508px; height:96px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">会議録音を自動文字起こし後<br>GPTで要約・アクション抽出<br>月400時間の工数削減を達成</div>
+    <!-- Row1-Col2 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:666px; top:136px; width:588px; height:433px; background:#FFFFFF; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:666px; top:136px; width:588px; height:8px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:706px; top:183px; width:508px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">社内RAG検索</div>
+    <div data-pptx-type="text" style="position:absolute; left:706px; top:261px; width:508px; height:96px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">社内規程・手順書をベクトルDB化<br>自然言語で即時検索<br>問い合わせ対応50%削減</div>
+    <!-- Row1-Col3 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:1294px; top:136px; width:588px; height:433px; background:#FFFFFF; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1294px; top:136px; width:588px; height:8px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1334px; top:183px; width:508px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">外観検査AI</div>
+    <div data-pptx-type="text" style="position:absolute; left:1334px; top:261px; width:508px; height:96px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">CNNモデルで製造ライン検査<br>精度99.2%達成<br>不良品流出率を大幅改善</div>
+    <!-- Row2-Col1 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:38px; top:609px; width:588px; height:433px; background:#FFFFFF; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:609px; width:588px; height:8px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:656px; width:508px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">需要予測モデル</div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:734px; width:508px; height:96px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">販売実績×外部データで<br>在庫最適化を自動化<br>欠品率30%改善</div>
+    <!-- Row2-Col2 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:666px; top:609px; width:588px; height:433px; background:#FFFFFF; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:666px; top:609px; width:588px; height:8px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:706px; top:656px; width:508px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">営業レポート自動生成</div>
+    <div data-pptx-type="text" style="position:absolute; left:706px; top:734px; width:508px; height:96px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">日報・週報を自動作成<br>レビュー時間を80%削減<br>全営業部門展開済み</div>
+    <!-- Row2-Col3（次期・accent6） -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:1294px; top:609px; width:588px; height:433px; background:#D6EEF8; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1294px; top:609px; width:588px; height:8px; background:#004F8C;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1334px; top:656px; width:508px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#004F8C; line-height:48px; text-align:left; letter-spacing:0;">次期取り組み予定</div>
+    <div data-pptx-type="text" style="position:absolute; left:1334px; top:734px; width:508px; height:96px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#004F8C; line-height:32px; text-align:left; letter-spacing:0;">顧客問い合わせAI対応<br>一次回答自動化で<br>CS工数60%削減見込み</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B22 L-2H-6040 / M-B11-B バンド型 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B22 M-B11-B バンド型見出し" data-screen-label="B22 M-B11-B バンド型見出し"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:800px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">業務改善の全体像</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">22</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- Left: 画像プレースホルダー (L-2H-6040: w:1107) -->
+    <div data-pptx-type="placeholder" data-placeholder-label="業務改善イメージ"
+      style="position:absolute; left:38px; top:136px; width:1107px; height:906px; background:#F0F0F0; display:flex; align-items:center; justify-content:center;">
+      <div style="text-align:center;">
+        <div style="width:80px; height:80px; background:#CCCCCC; margin:0 auto 24px;"></div>
+        <div style="font-size:32px; color:#AAAAAA;">業務改善イメージ<br><span style="font-size:27px; color:#CCCCCC;">1107×906px推奨</span></div>
+      </div>
+    </div>
+    <!-- Right: M-B11 variant B バンド型 / left:1185 w:697 -->
+    <div data-pptx-type="rect" style="position:absolute; left:1185px; top:136px; width:697px; height:85px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1213px; top:152px; width:669px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#FFFFFF; line-height:53px; text-align:left; letter-spacing:0;">改善の重点領域</div>
+    <!-- M-B3 箇条書き -->
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:291px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:278px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">承認フローのデジタル完結</div>
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:428px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:415px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">定型報告書の自動生成</div>
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:565px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:552px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">データ入力の一元管理</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B23 L-2H-6040 / M-B11-C アンダーライン型 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B23 M-B11-C アンダーライン型見出し" data-screen-label="B23 M-B11-C アンダーライン型見出し"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:800px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">注目テクノロジー一覧</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">23</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- Left: 画像プレースホルダー -->
+    <div data-pptx-type="placeholder" data-placeholder-label="テクノロジーイメージ"
+      style="position:absolute; left:38px; top:136px; width:1107px; height:906px; background:#F0F0F0; display:flex; align-items:center; justify-content:center;">
+      <div style="text-align:center;">
+        <div style="width:80px; height:80px; background:#CCCCCC; margin:0 auto 24px;"></div>
+        <div style="font-size:32px; color:#AAAAAA;">テクノロジーイメージ<br><span style="font-size:27px; color:#CCCCCC;">1107×906px推奨</span></div>
+      </div>
+    </div>
+    <!-- Right: M-B11 variant C アンダーライン型 / left:1185 w:697 -->
+    <div data-pptx-type="text" style="position:absolute; left:1213px; top:152px; width:669px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">今期の重点領域</div>
+    <div data-pptx-type="rect" style="position:absolute; left:1185px; top:221px; width:697px; height:5px; background:#0088C8;"></div>
+    <!-- M-B3 箇条書き -->
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:307px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:294px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">生成AI・LLM活用</div>
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:444px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:431px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">RAG・ベクトル検索</div>
+    <div data-pptx-type="oval" style="position:absolute; left:1185px; top:581px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1225px; top:568px; width:657px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">MLOps・自動化基盤</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B24 L-1 / O-B5 横型フロー+グルーピング ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B24 O-B5 横型フロー+グルーピング" data-screen-label="B24 O-B5 横型フロー+グルーピング"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:900px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">AI導入プロセスフロー</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">24</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+
+    <!-- O-B5: 5ステップ、ステップ4-5をグルーピング -->
+    <!-- Step centers x: 220, 590, 960, 1330, 1700 -->
+    <!-- Circle: top:680 h:160 → center_y:760 -->
+    <!-- Label: top:490 h:77 -->
+    <!-- Connector: top:567 h:113 -->
+    <!-- Description: top:852 h:51 -->
+
+    <!-- グルーピング背景 steps 4-5（水平コネクタより先に描画→奥に配置） -->
+    <!-- ラベル幅260px、center=1330 → left=1200。背景はleft:1200から -->
+    <!-- グルーピングラベル bottom = 420+43=463、ステップラベル top=490 → 27px余白 -->
+    <div data-pptx-type="rect" style="position:absolute; left:1226px; top:404px; width:578px; height:460px; background:#D6EEF8;"></div>
+    <!-- グルーピングラベル -->
+    <div data-pptx-type="rect" style="position:absolute; left:1242px; top:420px; width:5px; height:43px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1255px; top:428px; width:400px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:700; color:#0088C8; line-height:27px; text-align:left; letter-spacing:0;">本番化フェーズ</div>
+
+    <!-- 水平コネクタライン (y=759) -->
+    <div data-pptx-type="line" style="position:absolute; left:140px; top:758px; width:1548px; height:3px; background:#BBBBBB;"></div>
+
+    <!-- ===== Step 1: データ収集・整理 ===== -->
+    <div data-pptx-type="rect" style="position:absolute; left:90px; top:490px; width:260px; height:77px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:90px; top:507px; width:260px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:center; letter-spacing:0;">データ収集</div>
+    <div data-pptx-type="line" style="position:absolute; left:218px; top:567px; width:3px; height:113px; background:#BBBBBB;"></div>
+    <div data-pptx-type="oval" style="position:absolute; left:140px; top:680px; width:160px; height:160px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:140px; top:726px; width:160px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#FFFFFF; line-height:59px; text-align:center; letter-spacing:0;">01</div>
+    <div data-pptx-type="text" style="position:absolute; left:90px; top:862px; width:260px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:center; letter-spacing:0;">社内外データを統合・整備</div>
+
+    <!-- ===== Step 2: 課題・要件定義 ===== -->
+    <div data-pptx-type="rect" style="position:absolute; left:460px; top:490px; width:260px; height:77px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:460px; top:507px; width:260px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:center; letter-spacing:0;">課題定義</div>
+    <div data-pptx-type="line" style="position:absolute; left:588px; top:567px; width:3px; height:113px; background:#BBBBBB;"></div>
+    <div data-pptx-type="oval" style="position:absolute; left:510px; top:680px; width:160px; height:160px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:510px; top:726px; width:160px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#FFFFFF; line-height:59px; text-align:center; letter-spacing:0;">02</div>
+    <div data-pptx-type="text" style="position:absolute; left:460px; top:862px; width:260px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:center; letter-spacing:0;">KPIと成功基準を策定</div>
+
+    <!-- ===== Step 3: モデル開発・学習 ===== -->
+    <div data-pptx-type="rect" style="position:absolute; left:830px; top:490px; width:260px; height:77px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:830px; top:507px; width:260px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:center; letter-spacing:0;">モデル開発</div>
+    <div data-pptx-type="line" style="position:absolute; left:958px; top:567px; width:3px; height:113px; background:#BBBBBB;"></div>
+    <div data-pptx-type="oval" style="position:absolute; left:880px; top:680px; width:160px; height:160px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:880px; top:726px; width:160px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#FFFFFF; line-height:59px; text-align:center; letter-spacing:0;">03</div>
+    <div data-pptx-type="text" style="position:absolute; left:830px; top:862px; width:260px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:center; letter-spacing:0;">スプリントで試作・反復</div>
+
+    <!-- ===== Step 4: テスト・検証（グルーピング内） ===== -->
+    <!-- center=1330, label: left=1330-130=1200, width:260 -->
+    <div data-pptx-type="rect" style="position:absolute; left:1200px; top:490px; width:260px; height:77px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1200px; top:507px; width:260px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:center; letter-spacing:0;">テスト検証</div>
+    <div data-pptx-type="line" style="position:absolute; left:1328px; top:567px; width:3px; height:113px; background:#BBBBBB;"></div>
+    <div data-pptx-type="oval" style="position:absolute; left:1250px; top:680px; width:160px; height:160px; background:#004F8C;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1250px; top:726px; width:160px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#FFFFFF; line-height:59px; text-align:center; letter-spacing:0;">04</div>
+    <div data-pptx-type="text" style="position:absolute; left:1200px; top:862px; width:260px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:center; letter-spacing:0;">精度・安全性を確認</div>
+
+    <!-- ===== Step 5: 本番展開・運用（グルーピング内） ===== -->
+    <!-- center=1700, label: left=1700-130=1570, width:260 -->
+    <div data-pptx-type="rect" style="position:absolute; left:1570px; top:490px; width:260px; height:77px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1570px; top:507px; width:260px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:center; letter-spacing:0;">本番展開</div>
+    <div data-pptx-type="line" style="position:absolute; left:1698px; top:567px; width:3px; height:113px; background:#BBBBBB;"></div>
+    <div data-pptx-type="oval" style="position:absolute; left:1620px; top:680px; width:160px; height:160px; background:#004F8C;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1620px; top:726px; width:160px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#FFFFFF; line-height:59px; text-align:center; letter-spacing:0;">05</div>
+    <div data-pptx-type="text" style="position:absolute; left:1570px; top:862px; width:260px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:center; letter-spacing:0;">監視体制を整備・継続改善</div>
+
+    <!-- 末尾矢印 -->
+    <div data-pptx-type="rect" style="position:absolute; left:1780px; top:758px; width:60px; height:3px; background:#BBBBBB;"></div>
+    <div data-pptx-type="triangle" data-pptx-rotation="90" style="position:absolute; left:1840px; top:740px; width:28px; height:40px; background:#BBBBBB; clip-path:polygon(0 0, 100% 50%, 0 100%);"></div>
+
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ A06 結び / 02_structure_dark ============================================================ -->
+  <section data-pptx-layout="02_structure_dark" data-label="A06 結び" data-screen-label="A06 結び"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#004F8C;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:248px; width:400px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#739EC0; line-height:27px; text-align:left; letter-spacing:0;">THANK YOU</div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:354px; width:1200px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#FFFFFF; line-height:101px; text-align:left; letter-spacing:0;">ご清聴ありがとう</div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:516px; width:900px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#F0C000; line-height:101px; text-align:left; letter-spacing:0;">ございました</div>
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:700px; width:100px; height:6px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:769px; width:900px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#BFD3E2; line-height:48px; text-align:left; letter-spacing:0;">次回 IGNAITALK #03 もお楽しみに</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#003B69; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#4D83AC;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ A19 テキストのみ（インパクト強調） / 02_structure_dark ============================================================ -->
+  <section data-pptx-layout="02_structure_dark" data-label="A19 テキストのみ" data-screen-label="A19 テキストのみ"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#004F8C;">
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:411px; width:1844px; height:101px; font-family:'Noto Sans JP',sans-serif; font-size:101px; font-weight:700; color:#FFFFFF; line-height:101px; text-align:center; letter-spacing:0;">すべての業務に、AIを。</div>
+    <div data-pptx-type="rect" style="position:absolute; left:860px; top:566px; width:200px; height:6px; background:#F0C000;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:631px; width:1844px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#BFD3E2; line-height:48px; text-align:center; letter-spacing:0;">一人ひとりの工夫が、組織を変える</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#003B69; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#4D83AC;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B08 L-2H / 04_body / M-B1 + M-B3×2 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B08 2カラム比較" data-screen-label="B08 2カラム比較"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <!-- M-B1 スライドヘッダー（タイトル＋ページ番号＋青下線） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:700px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">Before / After 比較</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:right; letter-spacing:0;">02</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B3 箇条書き L1（BEFOREカラム） -->
+    <!-- Left col header: BEFORE -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:156px; width:900px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#767676; line-height:53px; text-align:left; letter-spacing:0;">BEFORE</div>
+    <!-- Right col header: AFTER -->
+    <div data-pptx-type="text" style="position:absolute; left:982px; top:156px; width:900px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:left; letter-spacing:0;">AFTER</div>
+    <!-- Center divider -->
+    <div data-pptx-type="rect" style="position:absolute; left:940px; top:140px; width:2px; height:868px; background:#F0F0F0;"></div>
+    <!-- Left bullets -->
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:293px; width:20px; height:20px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:280px; width:824px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">手動で録音・メモを取る</div>
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:430px; width:20px; height:20px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:417px; width:824px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">清書・整形に2〜3時間</div>
+    <div data-pptx-type="oval" style="position:absolute; left:38px; top:567px; width:20px; height:20px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:78px; top:554px; width:824px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">共有まで翌日以降になりがち</div>
+    <!-- Right bullets -->
+    <div data-pptx-type="oval" style="position:absolute; left:982px; top:293px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1022px; top:280px; width:820px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">AIが自動で文字起こし・要約</div>
+    <div data-pptx-type="oval" style="position:absolute; left:982px; top:430px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1022px; top:417px; width:820px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">作業時間を90%削減</div>
+    <div data-pptx-type="oval" style="position:absolute; left:982px; top:567px; width:20px; height:20px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1022px; top:554px; width:820px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">会議終了後5分で全員に共有</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B13 L-1 / 04_body / M-B1 + M-B6×5 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B13 アジェンダ" data-screen-label="B13 アジェンダ"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <!-- M-B1 スライドヘッダー（タイトル＋ページ番号＋青下線） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:700px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">当日のタイムライン</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:right; letter-spacing:0;">06</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B6 アジェンダ行（サブなし） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:163px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">18:00</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:140px; width:6px; height:77px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:155px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">開場・受付</div>
+    <!-- M-B6 アジェンダ行（サブあり） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:290px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">18:15</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:265px; width:6px; height:162px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:280px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">Lightning Talks × 4本</div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:375px; width:1576px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">各5分 — AI活用事例を登壇者がシェア</div>
+    <!-- M-B6 アジェンダ行（サブあり） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:490px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">19:00</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:465px; width:6px; height:162px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:480px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">Q&amp;A・ディスカッション</div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:575px; width:1576px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">全体質疑 — 登壇者への質問を受け付けます</div>
+    <!-- M-B6 アジェンダ行（サブなし） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:690px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">19:30</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:665px; width:6px; height:77px; background:#F0C000;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:680px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">ネットワーキング・クロージング</div>
+    <!-- M-B6 アジェンダ行（サブなし） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:805px; width:160px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:400; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">20:00</div>
+    <div data-pptx-type="rect" style="position:absolute; left:230px; top:780px; width:6px; height:77px; background:#767676;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:268px; top:795px; width:1576px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:400; color:#767676; line-height:48px; text-align:left; letter-spacing:0;">終了（予定）</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B14 L-2H / 04_body / M-B1 + M-B10×2 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B14 登壇者プロフィール" data-screen-label="B14 登壇者プロフィール"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <!-- M-B1 スライドヘッダー（タイトル＋ページ番号＋青下線） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:600px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">登壇者プロフィール</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:right; letter-spacing:0;">07</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+    <!-- M-B10 プロフィールカード 1/2 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:38px; top:130px; width:890px; height:868px; background:#F5F5F5; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:70px; top:162px; width:80px; height:80px; background:#0088C8;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:174px; top:178px; width:720px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">田中 一郎</div>
+    <div data-pptx-type="text" style="position:absolute; left:174px; top:272px; width:720px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">営業企画部</div>
+    <div data-pptx-type="line" style="position:absolute; left:70px; top:360px; width:818px; height:2px; background:#E0E0E0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:398px; width:200px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:left; letter-spacing:0;">発表テーマ</div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:466px; width:818px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">議事録自動要約で週3時間を取り戻す</div>
+    <div data-pptx-type="text" style="position:absolute; left:70px; top:573px; width:818px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">会議録音→要約→共有を完全自動化</div>
+    <!-- M-B10 プロフィールカード 2/2 -->
+    <div data-pptx-type="rect" data-pptx-shadow="preset1" style="position:absolute; left:992px; top:130px; width:890px; height:868px; background:#F5F5F5; box-shadow:6px 6px 11px 0px rgba(0,0,0,0.4);"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1024px; top:162px; width:80px; height:80px; background:#C87800;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1128px; top:178px; width:720px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:left; letter-spacing:0;">佐藤 花子</div>
+    <div data-pptx-type="text" style="position:absolute; left:1128px; top:272px; width:720px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">情報システム部</div>
+    <div data-pptx-type="line" style="position:absolute; left:1024px; top:360px; width:818px; height:2px; background:#E0E0E0;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:1024px; top:398px; width:200px; height:27px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#0088C8; line-height:27px; text-align:left; letter-spacing:0;">発表テーマ</div>
+    <div data-pptx-type="text" style="position:absolute; left:1024px; top:466px; width:858px; height:48px; font-family:'Noto Sans JP',sans-serif; font-size:48px; font-weight:700; color:#1A1A1A; line-height:48px; text-align:left; letter-spacing:0;">社内問い合わせにRAGを導入した3ヶ月</div>
+    <div data-pptx-type="text" style="position:absolute; left:1024px; top:573px; width:818px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">応答時間を半減させるまでの試行錯誤</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+<!-- ============================================================ B18 L-1 / 04_body / M-B1 + O-B3 ============================================================ -->
+  <section data-pptx-layout="04_body" data-label="B18 比較テーブル" data-screen-label="B18 比較テーブル"
+    style="position:relative; width:1920px; height:1080px; overflow:hidden; font-family:'Noto Sans JP',sans-serif; background:#FFFFFF;">
+    <!-- M-B1 スライドヘッダー（タイトル＋ページ番号＋青下線） -->
+    <div data-pptx-type="text" style="position:absolute; left:38px; top:8px; width:600px; height:59px; font-family:'Noto Sans JP',sans-serif; font-size:59px; font-weight:700; color:#1A1A1A; line-height:59px; text-align:left; letter-spacing:0;">ツール比較検討</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:1793px; top:26px; width:89px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:27px; font-weight:400; color:#767676; line-height:43px; text-align:right; letter-spacing:0;">09</div>
+    <div data-pptx-type="ignore" style="position:absolute; left:38px; top:94px; width:1844px; height:4px; background:#0088C8;"></div>
+
+    <!-- O-B3 評価比較テーブル -->
+    <!-- ヘッダー行 h:72 top:140 -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:140px; width:280px; height:72px; background:#1A1A1A;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:318px; top:140px; width:782px; height:72px; background:#0088C8;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1102px; top:140px; width:780px; height:72px; background:#F5F5F5;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:160px; width:256px; height:32px; font-family:'Noto Sans JP',sans-serif; font-size:32px; font-weight:700; color:#767676; line-height:32px; text-align:left; letter-spacing:0;">比較軸</div>
+    <div data-pptx-type="text" style="position:absolute; left:318px; top:157px; width:782px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#FFFFFF; line-height:43px; text-align:center; letter-spacing:0;">A案（内製ツール）</div>
+    <div data-pptx-type="text" style="position:absolute; left:1102px; top:157px; width:780px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:center; letter-spacing:0;">B案（SaaSツール）</div>
+
+    <!-- A|B 縦区切り（全行共通） -->
+    <div data-pptx-type="rect" style="position:absolute; left:1098px; top:140px; width:4px; height:552px; background:#DDDDDD;"></div>
+    <!-- A内縦区切り（評価|説明） -->
+    <div data-pptx-type="rect" style="position:absolute; left:478px; top:212px; width:2px; height:480px; background:#C8DFF0;"></div>
+    <!-- B内縦区切り（評価|説明） -->
+    <div data-pptx-type="rect" style="position:absolute; left:1260px; top:212px; width:2px; height:480px; background:#E0E0E0;"></div>
+
+    <!-- ── Row 1: コスト top:212 h:96 ── -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:212px; width:280px; height:96px; background:#FAFAFA;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:318px; top:212px; width:780px; height:96px; background:#F0F7FF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1102px; top:212px; width:780px; height:96px; background:#FFFFFF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:229px; width:256px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">コスト</div>
+    <div data-pptx-type="text" style="position:absolute; left:318px; top:228px; width:160px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:center; letter-spacing:0;">◎</div>
+    <div data-pptx-type="text" style="position:absolute; left:490px; top:229px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">初期費用が低くROIが高い</div>
+    <div data-pptx-type="text" style="position:absolute; left:1102px; top:228px; width:158px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#767676; line-height:53px; text-align:center; letter-spacing:0;">△</div>
+    <div data-pptx-type="text" style="position:absolute; left:1272px; top:229px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">ライセンス費用が高め</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:308px; width:1844px; height:1px; background:#EEEEEE;"></div>
+
+    <!-- ── Row 2: 導入スピード top:308 h:96 ── -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:309px; width:280px; height:96px; background:#FFFFFF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:318px; top:309px; width:780px; height:96px; background:#FFFFFF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1102px; top:309px; width:780px; height:96px; background:#F0F7FF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:326px; width:256px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">導入スピード</div>
+    <div data-pptx-type="text" style="position:absolute; left:318px; top:325px; width:160px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#767676; line-height:53px; text-align:center; letter-spacing:0;">△</div>
+    <div data-pptx-type="text" style="position:absolute; left:490px; top:326px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">開発期間3ヶ月必要</div>
+    <div data-pptx-type="text" style="position:absolute; left:1102px; top:325px; width:158px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:center; letter-spacing:0;">◎</div>
+    <div data-pptx-type="text" style="position:absolute; left:1272px; top:326px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">2週間で本番稼働可能</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:405px; width:1844px; height:1px; background:#EEEEEE;"></div>
+
+    <!-- ── Row 3: カスタマイズ top:406 h:96 ── -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:406px; width:280px; height:96px; background:#FAFAFA;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:318px; top:406px; width:780px; height:96px; background:#F0F7FF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1102px; top:406px; width:780px; height:96px; background:#FFFFFF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:423px; width:256px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">カスタマイズ</div>
+    <div data-pptx-type="text" style="position:absolute; left:318px; top:422px; width:160px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:center; letter-spacing:0;">◎</div>
+    <div data-pptx-type="text" style="position:absolute; left:490px; top:423px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">自由度が高い</div>
+    <div data-pptx-type="text" style="position:absolute; left:1102px; top:422px; width:158px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:center; letter-spacing:0;">○</div>
+    <div data-pptx-type="text" style="position:absolute; left:1272px; top:423px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">テンプレート範囲内</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:502px; width:1844px; height:1px; background:#EEEEEE;"></div>
+
+    <!-- ── Row 4: セキュリティ top:503 h:96 ── -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:503px; width:280px; height:96px; background:#FFFFFF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:318px; top:503px; width:780px; height:96px; background:#F0F7FF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1102px; top:503px; width:780px; height:96px; background:#FFFFFF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:520px; width:256px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">セキュリティ</div>
+    <div data-pptx-type="text" style="position:absolute; left:318px; top:519px; width:160px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:center; letter-spacing:0;">◎</div>
+    <div data-pptx-type="text" style="position:absolute; left:490px; top:520px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">社内完結・情報漏洩リスク低</div>
+    <div data-pptx-type="text" style="position:absolute; left:1102px; top:519px; width:158px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#1A1A1A; line-height:53px; text-align:center; letter-spacing:0;">○</div>
+    <div data-pptx-type="text" style="position:absolute; left:1272px; top:520px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">ISO認証取得済み</div>
+    <div data-pptx-type="line" style="position:absolute; left:38px; top:599px; width:1844px; height:1px; background:#EEEEEE;"></div>
+
+    <!-- ── Row 5: 保守・運用 top:600 h:96 ── -->
+    <div data-pptx-type="rect" style="position:absolute; left:38px; top:600px; width:280px; height:96px; background:#FAFAFA;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:318px; top:600px; width:780px; height:96px; background:#FFFFFF;"></div>
+    <div data-pptx-type="rect" style="position:absolute; left:1102px; top:600px; width:780px; height:96px; background:#F0F7FF;"></div>
+    <div data-pptx-type="text" style="position:absolute; left:50px; top:617px; width:256px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:700; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">保守・運用</div>
+    <div data-pptx-type="text" style="position:absolute; left:318px; top:616px; width:160px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#CC0028; line-height:53px; text-align:center; letter-spacing:0;">✕</div>
+    <div data-pptx-type="text" style="position:absolute; left:490px; top:617px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#767676; line-height:43px; text-align:left; letter-spacing:0;">社内リソースが必要</div>
+    <div data-pptx-type="text" style="position:absolute; left:1102px; top:616px; width:158px; height:53px; font-family:'Noto Sans JP',sans-serif; font-size:53px; font-weight:700; color:#0088C8; line-height:53px; text-align:center; letter-spacing:0;">◎</div>
+    <div data-pptx-type="text" style="position:absolute; left:1272px; top:617px; width:596px; height:43px; font-family:'Noto Sans JP',sans-serif; font-size:43px; font-weight:400; color:#1A1A1A; line-height:43px; text-align:left; letter-spacing:0;">ベンダー対応</div>
+
+    <div data-pptx-type="ignore" style="position:absolute; left:0px; top:1046px; width:1920px; height:34px; background:#FFFFFF; border-top:1px solid #F0F0F0; display:flex; align-items:center; padding:0 38px;">
+      <span style="font-size:22px; color:#767676;">© 2026 liber8_ppter Project. Ltd. All Rights Reserved.</span>
+    </div>
+  </section>
+
+
+</div>
+</body>
+</html>
